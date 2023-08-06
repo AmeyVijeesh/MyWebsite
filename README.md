@@ -41,14 +41,7 @@ Try running it with:
    ```bash
    npm run dev
 
-#Usage
-Explain how to use your website or any relevant usage instructions. You can also include screenshots, GIFs, or links to a live demo.
+If you want to contact me, do so by raising an issue right here.
 
-Features
-List the key features and functionalities of your website.
-
-Technologies Used
-React
-Vite
-Other technologies and libraries you've used
+Thanks!
    
