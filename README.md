@@ -19,14 +19,12 @@ View the website at https://ameyvijeesh.netlify.com
 
 ## Getting Started
 
-Provide instructions for getting the project up and running on a local machine.
-
+Clone this repo to run it locally in your machine.
 ### Prerequisites
 
-List any software, tools, or dependencies that need to be installed before setting up the project. For example:
-
-- Node.js (version)
-- npm or yarn (version)
+Try running it with: 
+- Vite
+- npm or yarn (older versions may be supported - I'm not sure)
 
 ### Installation
 
