@@ -34,6 +34,21 @@ Try running it with:
    cd your-repo
 
 2. Install Dependencies:
-    ```bash
+   ```bash
    npm install
+
+3. Run it using Vite:
+   ```bash
+   npm run dev
+
+#Usage
+Explain how to use your website or any relevant usage instructions. You can also include screenshots, GIFs, or links to a live demo.
+
+Features
+List the key features and functionalities of your website.
+
+Technologies Used
+React
+Vite
+Other technologies and libraries you've used
    
