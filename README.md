@@ -32,3 +32,8 @@ Try running it with:
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+
+2. Install Dependencies:
+3. ```bash
+   npm install
+   ```
