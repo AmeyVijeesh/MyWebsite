@@ -34,6 +34,6 @@ Try running it with:
    cd your-repo
 
 2. Install Dependencies:
-3. ```bash
+    ```bash
    npm install
-   ```
+   
