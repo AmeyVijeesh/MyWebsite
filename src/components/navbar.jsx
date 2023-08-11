@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./CSS/navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
+// MDBootstrap library
 
 const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
