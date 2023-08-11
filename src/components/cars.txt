@@ -1,3 +1,5 @@
+Cars list for the MyGarage component.
+
 All cars: 
 
 
