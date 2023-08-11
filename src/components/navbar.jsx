@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./CSS/navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
-// MDBootstrap library
 
 const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -9,6 +8,10 @@ const NavBar = () => {
 
   const handleToggle = () => {
     setIsExpanded(!isExpanded);
+  };
+
+  const handleMenuItemClick = () => {
+    setIsExpanded(false); // Close the navbar after a menu item is clicked
   };
 
   const isAboutPage = location.pathname === "/about";
@@ -55,6 +58,7 @@ const NavBar = () => {
                     style={({ isActive }) => ({
                       color: isActive ? "#2190D6" : "white",
                     })}
+                    onClick={handleMenuItemClick} // Close the navbar after a menu item is clicked
                   >
                     Home
                   </NavLink>
@@ -68,6 +72,7 @@ const NavBar = () => {
                       color: isActive ? "#2190D6" : "white",
                       textDecoration: isActive ? "underline" : "",
                     })}
+                    onClick={handleMenuItemClick} // Close the navbar after a menu item is clicked
                   >
                     My Garage
                   </NavLink>
@@ -81,12 +86,12 @@ const NavBar = () => {
                       color: isActive ? "#2190D6" : "white",
                       textDecoration: isActive ? "underline" : "",
                     })}
+                    onClick={handleMenuItemClick} // Close the navbar after a menu item is clicked
                   >
                     About
                   </NavLink>
                 </a>
               </li>
-
               <li className="nav-item">
                 <a className="nav-link" href="#!">
                   <NavLink
@@ -95,6 +100,7 @@ const NavBar = () => {
                       color: isActive ? "#2190D6" : "white",
                       textDecoration: isActive ? "underline" : "",
                     })}
+                    onClick={handleMenuItemClick} // Close the navbar after a menu item is clicked
                   >
                     Contact
                   </NavLink>
