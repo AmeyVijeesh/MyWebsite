@@ -8,7 +8,7 @@ const SiteMapComp = () => {
         <h2 style={{ marginBottom: "25px" }}>Sitemap</h2>
         <h4>
           <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">
-            XML Sitemap
+            View XML Sitemap
           </a>
         </h4>
         <h4>Home</h4>
