@@ -40,6 +40,7 @@ const PageSec3 = () => {
           </motion.p>
           {isHovered && (
             <div className="side-image" onMouseLeave={handleMouseLeave}>
+              {/*Little easter egg :-)*/}
               <motion.img
                 src={myPhoto}
                 alt="Amey's Photo. He looks very good."
