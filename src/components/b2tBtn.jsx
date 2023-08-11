@@ -23,7 +23,7 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className={`backToTopButton ${showButton ? "show" : ""}`}
+      className={`backToTopButton ${showButton ? "show" : ""}`} {/*Find a better method later*/}
       onClick={handleBackToTop}
     >
       Back to Top
