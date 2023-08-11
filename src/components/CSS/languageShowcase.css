@@ -104,3 +104,14 @@
   margin-right: 10%;
   text-align: center;
 }
+
+.breakLine {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .breakLine {
+    display: inline;
+    margin: 0 0.2em;
+  }
+}
