@@ -1,4 +1,5 @@
 import React from "react";
+// TODO: design a better sitemap component
 
 const SiteMapComp = () => {
   return (
