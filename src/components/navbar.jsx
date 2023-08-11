@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./CSS/navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
+// MDBoostrap library used here
 
 const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = () => {
   };
 
   const handleMenuItemClick = () => {
-    setIsExpanded(false); // Close the navbar after a menu item is clicked
+    setIsExpanded(false); 
   };
 
   const isAboutPage = location.pathname === "/about";
@@ -24,7 +25,7 @@ const NavBar = () => {
             <NavLink
               to="/"
               style={({ isActive }) => ({
-                color: isActive ? "greenyellow" : "white",
+                color: isActive ? "black" : "white",
               })}
             >
               <span style={{ color: "#2190D6" }}>Amey</span>
