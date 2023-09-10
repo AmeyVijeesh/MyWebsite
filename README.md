@@ -1,7 +1,7 @@
 # PersonalWebsite
 My Personal Portfolio, made using React. 
 
-Animations using Framer-motion. Project bootstrapped with React. 
+Animations using Framer-motion. MDBootstrap for navbar. Project bootstrapped with React. 
 View the website at https://ameyvijeesh.netlify.com
 
 
