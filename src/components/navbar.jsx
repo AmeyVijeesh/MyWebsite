@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useLayoutEffect } from "react";
 import "./CSS/navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
-// MDBoostrap library used here
 
 const NavBar = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const [isExpanded, setIsExpanded] = useState(false);
   const location = useLocation();
 
@@ -12,7 +14,7 @@ const NavBar = () => {
   };
 
   const handleMenuItemClick = () => {
-    setIsExpanded(false); 
+    setIsExpanded(false);
   };
 
   const isAboutPage = location.pathname === "/about";
@@ -25,7 +27,7 @@ const NavBar = () => {
             <NavLink
               to="/"
               style={({ isActive }) => ({
-                color: isActive ? "black" : "white",
+                color: isActive ? "greenyellow" : "white",
               })}
             >
               <span style={{ color: "#2190D6" }}>Amey</span>
