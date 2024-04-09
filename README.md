@@ -1,5 +1,5 @@
 # PersonalWebsite
-My Personal Portfolio, made using React. 
+My car-themed personal website, made using React. Fully responsive.
 
 Animations using Framer-motion. MDBootstrap for navbar. Project bootstrapped with React. 
 View the website at https://ameyvijeesh.netlify.com
