@@ -36,7 +36,7 @@ Try running it with:
    ```bash
    npm run dev
 
-If you want to contact me, do so by raising an issue right here.
-
-Thanks!
+## TODO:
+- Should optimize the website. Too many assets cause long loading times.
+- Implement animations in mobile devices. Most of them don't work in mobile devices right now.
    
