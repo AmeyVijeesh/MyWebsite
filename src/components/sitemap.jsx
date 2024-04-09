@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const SiteMapComp = () => {
   return (
     <div>
-      <div style={{ textAlign: "center", marginTop: "15%" }}>
-        <h2 style={{ marginBottom: "25px" }}>Sitemap</h2>
+      <div style={{ textAlign: 'center', marginTop: '15%' }}>
+        <h2 style={{ marginBottom: '25px' }}>Sitemap</h2>
         <h4>
           <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">
             View XML Sitemap

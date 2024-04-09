@@ -1,7 +1,7 @@
-import React from "react";
-import "./CSS/PageSec3.css";
-import ProjectsShowcase from "./projectsShowcase";
-import BackToTopButton from "./b2tBtn";
+import React from 'react';
+import './CSS/PageSec3.css';
+import ProjectsShowcase from './projectsShowcase';
+import BackToTopButton from './b2tBtn';
 
 class PageSec3 extends React.Component {
   render() {

@@ -1,3 +1,5 @@
+Cars list for the MyGarage component. This text file is not used anywhere on this website.
+
 All cars: 
 
 

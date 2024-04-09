@@ -13,7 +13,7 @@ const PageNotFound = () => {
         <p className="subheading">Oops! Page Not Found</p>
         <p className="message">Looks like you took a wrong turn.</p>
         <a href="/" className="home-link">
-          Back to Home
+        Go back home.
         </a>
       </div>
     </div>

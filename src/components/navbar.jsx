@@ -1,6 +1,6 @@
-import React, { useState, useLayoutEffect } from "react";
-import "./CSS/navbar.css";
-import { NavLink, useLocation } from "react-router-dom";
+import React, { useState, useLayoutEffect } from 'react';
+import './CSS/navbar.css';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
   useLayoutEffect(() => {
@@ -17,7 +17,7 @@ const NavBar = () => {
     setIsExpanded(false);
   };
 
-  const isAboutPage = location.pathname === "/about";
+  const isAboutPage = location.pathname === '/about';
 
   return (
     <header>
@@ -27,11 +27,11 @@ const NavBar = () => {
             <NavLink
               to="/"
               style={({ isActive }) => ({
-                color: isActive ? "greenyellow" : "white",
+                color: isActive ? 'greenyellow' : 'white',
               })}
             >
-              <span style={{ color: "#2190D6" }}>Amey</span>
-              <span style={{ color: "#ffffff" }}>Vijeesh</span>
+              <span style={{ color: '#2190D6' }}>Amey</span>
+              <span style={{ color: '#ffffff' }}>Vijeesh</span>
             </NavLink>
           </a>
           <button
@@ -47,19 +47,19 @@ const NavBar = () => {
             <i className="fas fa-bars"></i>
           </button>
           <div
-            className={`collapse navbar-collapse ${isExpanded ? "show" : ""}`}
+            className={`collapse navbar-collapse ${isExpanded ? 'show' : ''}`}
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto">
               <li
-                style={{ color: isAboutPage ? "black" : "#fff" }}
+                style={{ color: isAboutPage ? 'black' : '#fff' }}
                 className="nav-item"
               >
                 <a className="nav-link" href="#!">
                   <NavLink
                     to="/"
                     style={({ isActive }) => ({
-                      color: isActive ? "#2190D6" : "white",
+                      color: isActive ? '#2190D6' : 'white',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -72,8 +72,8 @@ const NavBar = () => {
                   <NavLink
                     to="/MyGarage"
                     style={({ isActive }) => ({
-                      color: isActive ? "#2190D6" : "white",
-                      textDecoration: isActive ? "underline" : "",
+                      color: isActive ? '#2190D6' : 'white',
+                      textDecoration: isActive ? 'underline' : '',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -86,8 +86,8 @@ const NavBar = () => {
                   <NavLink
                     to="/about"
                     style={({ isActive }) => ({
-                      color: isActive ? "#2190D6" : "white",
-                      textDecoration: isActive ? "underline" : "",
+                      color: isActive ? '#2190D6' : 'white',
+                      textDecoration: isActive ? 'underline' : '',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -100,8 +100,8 @@ const NavBar = () => {
                   <NavLink
                     to="/contact"
                     style={({ isActive }) => ({
-                      color: isActive ? "#2190D6" : "white",
-                      textDecoration: isActive ? "underline" : "",
+                      color: isActive ? '#2190D6' : 'white',
+                      textDecoration: isActive ? 'underline' : '',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -116,7 +116,7 @@ const NavBar = () => {
                   <span
                     onClick={() => {
                       window.open(
-                        "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ameyvijeesh@gmail.com"
+                        'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ameyvijeesh@gmail.com'
                       );
                     }}
                   >
@@ -128,7 +128,7 @@ const NavBar = () => {
                 <a className="nav-link" href="#!">
                   <span
                     onClick={() => {
-                      window.open("https://github.com/AmeyVijeesh");
+                      window.open('https://github.com/AmeyVijeesh');
                     }}
                   >
                     <i className="fab fa-github"></i>
@@ -139,7 +139,7 @@ const NavBar = () => {
                 <a className="nav-link" href="#!">
                   <span
                     onClick={() => {
-                      window.open("https://www.google.com");
+                      window.open('https://www.google.com');
                     }}
                   >
                     <i className="fa fa-code" aria-hidden="true"></i>

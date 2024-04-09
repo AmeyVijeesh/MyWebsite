@@ -22,3 +22,14 @@
     height: 10%;
   }
 }
+
+.breakLine {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .breakLine {
+    display: inline;
+    margin: 0 0.2em;
+  }
+}

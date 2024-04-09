@@ -17,8 +17,8 @@
 }
 
 .profContainer {
-  display: flex; /* Use flexbox for the container */
-  align-items: center; /* Align items to the top */
+  display: flex;
+  align-items: center;
 }
 
 .profPic {
@@ -56,7 +56,7 @@
 }
 
 .profPar {
-  flex: 1; /* Take remaining space */
+  flex: 1;
 }
 
 .dot {
@@ -66,7 +66,7 @@
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
-  margin-right: -30px; /* Adjust this value to overlap */
+  margin-right: -30px;
 }
 .dot1 {
   height: 57px;
@@ -75,19 +75,19 @@
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
-  margin-left: -7px; /* Adjust this value to overlap */
+  margin-left: -7px;
 }
 
 .diva2 {
-  position: absolute; /* Set diva2 to fixed positioning */
-  top: 10%; /* Position diva2 at the top */
-  right: 0.5%; /* Position diva2 at the right */
+  position: absolute;
+  top: 10%;
+  right: 0.5%;
 }
 
 .diva {
-  position: fixed; /* Set diva to absolute positioning */
-  bottom: 2%; /* Position diva at the bottom */
-  left: 2%; /* Position diva at the left */
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
 }
 
 .bttn1 {
@@ -127,7 +127,7 @@
 }
 
 .arrow::before {
-  content: "";
+  content: '';
   display: block;
   width: 30px;
   height: 30px;
@@ -146,7 +146,7 @@
 }
 
 .arrow::after {
-  content: "";
+  content: '';
   display: block;
   top: 50%;
   left: 50%;
@@ -186,28 +186,26 @@
 }
 
 .aboutp {
-  position: relative; /* Ensure the line stays relative to the text */
+  position: relative;
 }
 
 .aboutp::after {
-  content: "";
+  content: '';
   position: absolute;
-  bottom: -2px; /* Position the line below the text */
-  left: 0; /* Start position of the line */
-  width: 0; /* Initially, the line has no width */
-  height: 2px; /* Set the height of the line */
-  background-color: #2190d6; /* Color of the line */
-  transition: width 0.3s ease; /* Smooth transition for width change */
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2190d6;
+  transition: width 0.3s ease;
 }
 
 .aboutp:hover::after {
-  width: 100%; /* Expand the line to 100% width on hover */
+  width: 100%;
 }
 
-/* Your existing CSS */
-
 .language-icons {
-  bottom: 20px; /* Adjust as needed */
+  bottom: 20px;
   left: 50%;
 }
 
@@ -215,4 +213,28 @@
   font-size: 3rem;
   margin: 0 10px;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .aboutPageCont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutPageContText {
+    text-align: center;
+    margin-top: 0.7rem;
+  }
+
+  .photoContainer {
+    margin-top: 20px;
+  }
+  .abtText {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .abtText {
+    font-size: 0.6rem;
+  }
 }
