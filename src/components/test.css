@@ -1,0 +1,9 @@
+/* test.css */
+[data-scroll-container] {
+  position: relative;
+}
+
+.scrolling-heading {
+  position: fixed; /* Fixed positioning for horizontal scrolling effect */
+  white-space: nowrap; /* Prevent wrapping of heading text */
+}

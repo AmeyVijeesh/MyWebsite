@@ -1,47 +1,18 @@
-import React, { useState, useEffect, useRef } from "react";
-import bgVideo from "./ComponentAssets/bgvideo4.mp4";
-import { motion, useScroll, useTransform } from "framer-motion";
-import "./CSS/pageSec1.css";
-import pic from "./ComponentAssets/pic.jpg";
-import photo from "./ComponentAssets/photo.png";
+import React, { useState, useEffect, useRef } from 'react';
+import bgVideo from './ComponentAssets/bgvideo8.mp4';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import './CSS/pageSec1.css';
+import pic from './ComponentAssets/pic.jpg';
+import photo from './ComponentAssets/photo.png';
 
 const PageSec1 = () => {
-  const [scrollDirection, setScrollDirection] = useState("down");
-  const { scrollYProgress } = useScroll();
-
-  const [isHovered, setIsHovered] = useState(false); // State to track hover
-
-  const handleHover = () => {
-    setIsHovered(!isHovered);
-  };
-
-  const aboutRef = useRef(null); // Reference to the about section
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const newScrollDirection =
-        window.scrollY > (window.dataY || 0) ? "down" : "up";
-      setScrollDirection(newScrollDirection);
-      window.dataY = window.scrollY;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const scrollToAbout = () => {
-    aboutRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div>
       <div>
         <div className="fixed-text-container2">
           <h2 className="fixed-text2">ameyvijeesh@gmail.com</h2>
         </div>
-        <div className={`background ${scrollDirection === "up" ? "up" : ""}`}>
+        <div>
           <div className="video-wrapper">
             <video autoPlay loop muted className="bg-video">
               <source src={bgVideo} type="video/mp4" />
@@ -52,13 +23,11 @@ const PageSec1 = () => {
         </div>
         <section>
           <div id="home-text">
-            <h1 className="titleText animatedHoverH1" onClick={scrollToAbout}>
-              Hello there! I'm Amey
-            </h1>
+            <h1 className="titleText animatedHoverH1">Hello there! I'm Amey</h1>
             <h4>Programmer, Car Enthusiast, and an Avid Reader</h4>
           </div>
         </section>
-        <section ref={aboutRef}>
+        <section>
           <div className="content">
             <center>
               <div className="aboutDiv">
@@ -81,13 +50,6 @@ const PageSec1 = () => {
                       machines, but one day, I shall.
                     </p>
                   </div>
-                  <img
-                    src={isHovered ? photo : pic}
-                    alt=""
-                    className="profilePic"
-                    onMouseEnter={handleHover}
-                    onMouseLeave={handleHover}
-                  />{" "}
                 </div>
               </div>
             </center>

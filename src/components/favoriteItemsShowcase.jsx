@@ -1,35 +1,43 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import "./favoriteItemsShowcase.css";
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import './favoriteItemsShowcase.css';
 
 const favoriteItems = [
   {
-    label: "Favorite Color",
-    value: "Black",
+    label: 'Favorite Color',
+    value: 'Black',
   },
   {
-    label: "Favorite Food",
-    value: "Cookies",
+    label: 'Favorite Food',
+    value: 'Cookies',
   },
   {
-    label: "Favorite Place",
-    value: "Norway",
+    label: 'Favorite Place',
+    value: 'Norway',
   },
   {
-    label: "Favorite Car Brand",
-    value: "Porsche",
+    label: 'Favorite Car Brand',
+    value: 'Porsche',
   },
   {
-    label: "Favorite Programming Language",
-    value: "Python",
+    label: 'Favorite Programming Language',
+    value: 'Python',
   },
   {
-    label: "Favorite Book",
-    value: "The Harry Potter Series / The Hunger Games Triology",
+    label: 'Favorite Book',
+    value: 'The Harry Potter Series / The Hunger Games Triology',
   },
   {
-    label: "Favorite Day of the Week",
+    label: 'Favorite Day of the Week',
     value: "Friday after 4 o'clock and Saturday",
+  },
+  {
+    label: 'Favorite Video Game',
+    value: 'Asphalt 8: Airborne',
+  },
+  {
+    label: 'Favorite Chocolate',
+    value: 'Toblerone/Lindt White Chocolate',
   },
 ];
 
@@ -60,11 +68,11 @@ const FavoriteItemsShowcase = () => {
           <motion.div
             key={index}
             className={`favorite-card ${
-              isOpen && selectedItem === item ? "open" : ""
+              isOpen && selectedItem === item ? 'open' : ''
             }`}
             whileHover={{
               scale: 1.1,
-              boxShadow: "0 8px 16px rgba(0, 0, 0, 0.3)",
+              boxShadow: '0 8px 16px rgba(0, 0, 0, 0.3)',
             }}
             transition={{ duration: 0.3 }}
             onClick={() => handleCardClick(item)}

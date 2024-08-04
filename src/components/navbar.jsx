@@ -1,12 +1,14 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import './CSS/navbar.css';
 import { NavLink, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
+
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isTransparent, setIsTransparent] = useState(true);
   const location = useLocation();
 
   const handleToggle = () => {
@@ -21,7 +23,11 @@ const NavBar = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+      <nav
+        className={`navbar navbar-expand-lg fixed-top mask-custom shadow-0 ${
+          isTransparent ? 'navbar-transparent' : 'navbar-black'
+        }`}
+      >
         <div className="container">
           <a className="navbar-brand" href="#!">
             <NavLink
@@ -30,7 +36,7 @@ const NavBar = () => {
                 color: isActive ? 'greenyellow' : 'white',
               })}
             >
-              <span style={{ color: '#2190D6' }}>Amey</span>
+              <span style={{ color: '#818181' }}>Amey</span>
               <span style={{ color: '#ffffff' }}>Vijeesh</span>
             </NavLink>
           </a>
@@ -59,7 +65,7 @@ const NavBar = () => {
                   <NavLink
                     to="/"
                     style={({ isActive }) => ({
-                      color: isActive ? '#2190D6' : 'white',
+                      color: isActive ? '#818181' : 'white',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -72,8 +78,7 @@ const NavBar = () => {
                   <NavLink
                     to="/MyGarage"
                     style={({ isActive }) => ({
-                      color: isActive ? '#2190D6' : 'white',
-                      textDecoration: isActive ? 'underline' : '',
+                      color: isActive ? '#818181' : 'white',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -86,8 +91,7 @@ const NavBar = () => {
                   <NavLink
                     to="/about"
                     style={({ isActive }) => ({
-                      color: isActive ? '#2190D6' : 'white',
-                      textDecoration: isActive ? 'underline' : '',
+                      color: isActive ? '#818181' : 'white',
                     })}
                     onClick={handleMenuItemClick}
                   >
@@ -100,8 +104,7 @@ const NavBar = () => {
                   <NavLink
                     to="/contact"
                     style={({ isActive }) => ({
-                      color: isActive ? '#2190D6' : 'white',
-                      textDecoration: isActive ? 'underline' : '',
+                      color: isActive ? '#818181' : 'white',
                     })}
                     onClick={handleMenuItemClick}
                   >

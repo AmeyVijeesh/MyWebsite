@@ -8,12 +8,18 @@
 }
 .abouth1 {
   margin-right: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
 .abouth2 {
   text-wrap: nowrap;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 .aboutp {
   text-wrap: nowrap;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 
 .profContainer {
@@ -33,7 +39,7 @@
   }
 
   .profPic {
-    height: 62vh;
+    height: auto;
     width: 43vh;
   }
 
@@ -236,5 +242,64 @@
 @media (max-width: 480px) {
   .abtText {
     font-size: 0.6rem;
+  }
+}
+
+.absecCont {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.absech1 {
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  margin: 10% 0% 10% 0%;
+}
+
+.absecp1 {
+  font-size: 1.5rem;
+}
+.absech2div {
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+.absech2div2 {
+  margin-bottom: 3%;
+  text-align: right;
+}
+
+.absech2 {
+  font-size: 1.5rem;
+}
+
+.langshow {
+  margin: 5% 0% 5% 0%;
+}
+
+@media (max-width: 768px) {
+  .absech2div {
+    text-align: left;
+  }
+
+  .absech2div2 {
+    text-align: left;
+  }
+
+  .absecCont {
+    margin: 5%;
+    height: auto;
+  }
+
+  .langshow {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

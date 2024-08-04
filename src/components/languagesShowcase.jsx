@@ -1,5 +1,5 @@
-import React from "react";
-import "./CSS/languageShowcase.css";
+import React from 'react';
+import './CSS/languageShowcase.css';
 import {
   faPython,
   faJs,
@@ -13,18 +13,17 @@ import {
   faStackOverflow,
   faSwift,
   faNode,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Tooltip } from "react-tooltip";
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Tooltip } from 'react-tooltip';
 
 const LanguageShowcase = () => {
   return (
     <>
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          justifyContent: "center",
+          display: 'flex',
+          justifyContent: 'center',
         }}
       >
         <div className="lsDiv">
@@ -71,7 +70,7 @@ const LanguageShowcase = () => {
             data-tooltip-id="tooltip-ls"
             data-tooltip-content="CSS3"
             data-tooltip-place="top"
-          />{" "}
+          />{' '}
           <FontAwesomeIcon
             icon={faSwift}
             className="lsIcon"
@@ -100,7 +99,7 @@ const LanguageShowcase = () => {
             data-tooltip-id="tooltip-ls"
             data-tooltip-content="Stackoverflow"
             data-tooltip-place="top"
-          />{" "}
+          />{' '}
           <FontAwesomeIcon
             icon={faBootstrap}
             className="lsIcon"

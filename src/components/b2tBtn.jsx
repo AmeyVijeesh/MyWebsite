@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import "./CSS/b2tbtn.css";
+import React, { useState, useEffect } from 'react';
+import './CSS/b2tbtn.css';
 
 const BackToTopButton = () => {
   const [showButton, setShowButton] = useState(false);
@@ -13,17 +13,17 @@ const BackToTopButton = () => {
   };
 
   const handleBackToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <button
-      className={`backToTopButton ${showButton ? "show" : ""}`} {/*Find a better method later*/}
+      className={`backToTopButton ${showButton ? 'show' : ''}`}
       onClick={handleBackToTop}
     >
       Back to Top

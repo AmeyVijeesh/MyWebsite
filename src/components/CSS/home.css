@@ -1,0 +1,35 @@
+.homeCont {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#myVideo {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+}
+
+.titleH1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.titleH3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
