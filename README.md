@@ -1,5 +1,5 @@
 # PersonalWebsite
-My Personal Portfolio, made using React. 
+My car-themed personal website, made using React. Fully responsive.
 
 Animations using Framer-motion. MDBootstrap for navbar. Project bootstrapped with React. 
 View the website at https://ameyvijeesh.netlify.com
@@ -36,7 +36,7 @@ Try running it with:
    ```bash
    npm run dev
 
-If you want to contact me, do so by raising an issue right here.
-
-Thanks!
+## TODO:
+- Should optimize the website. Too many assets cause long loading times.
+- Implement animations in mobile devices. Most of them don't work in mobile devices right now.
    
