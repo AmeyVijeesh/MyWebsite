@@ -304,7 +304,7 @@ select::-ms-expand {
 }
 
 .whitespaceDiv {
-  margin: 50%;
+  height: 100vh;
 }
 
 @media (max-width: 768px) {
@@ -326,7 +326,7 @@ select::-ms-expand {
     font-size: 1.5rem;
   }
   .whitespaceDiv {
-    margin-bottom: 1%;
+    height: 1vh;
   }
 }
 
