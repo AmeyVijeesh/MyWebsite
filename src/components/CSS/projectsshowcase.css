@@ -78,3 +78,24 @@
   background-color: #ffffff;
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+  }
+
+  .project-details p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .project-details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .project-details a {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+}

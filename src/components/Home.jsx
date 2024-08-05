@@ -51,15 +51,21 @@ const Home = () => {
               talk.
               <br />
               <br /> I absolutely adored cars from a young age (and I still do).
-              Hence, this website is car-themed. I have also curated an
+              Hence, this website is car-themed. I have also curated an{' '}
               <i>imaginary/dream</i> car garage here, which houses all the cars
               I'd like to own one day. It is a testament to my enduring passion
               and enthusiasm towards automotives. Maybe one day, this dream will
               be satiated.
               <br /> <br />
-              This website is completely hard-coded using React. Visit my Github
-              for more details. I will be maintaining this website as I go,
-              adding little bits and pieces to my portfolio as I continue
+              This website is completely hard-coded using React. Visit the{' '}
+              <a
+                href="https://github.com/AmeyVijeesh/PersonalWebsite"
+                className="hSecHyperlink"
+              >
+                Github
+              </a>{' '}
+              repository for more details. I will be maintaining this website as
+              I go, adding little bits and pieces to my portfolio as I continue
               through the winding path of learning and discovery. Have fun!
             </p>
           </div>
@@ -71,7 +77,15 @@ const Home = () => {
         </div>
 
         <div className="HSec3Cont">
-          <h1>My Projects.</h1>
+          <h1 className="HSec3H1">My Projects.</h1>
+          <p className="HSec3P">
+            I've used React, HTML/CSS/JS, Python, and Swift for most of my
+            projects. Visit my{' '}
+            <a href="https://github.com/AmeyVijeesh" className="hSecHyperlink">
+              Github
+            </a>{' '}
+            to view them all.
+          </p>
           <ProjectsShowcase />
         </div>
       </div>

@@ -6,7 +6,9 @@ import wapic from './ComponentAssets/weatherapp.png';
 import atextpic from './ComponentAssets/atext.png';
 import amexpropic2 from './ComponentAssets/amexpropic2.png';
 import recipes from './ComponentAssets/recipes.png';
+import psim from './ComponentAssets/psim.png';
 import LazyLoad from 'react-lazy-load';
+import { useNavigate } from 'react-router-dom';
 
 const projects = [
   {
@@ -14,16 +16,15 @@ const projects = [
     description:
       'Generate over 2000 recipes instantly. Currently not deployed.',
     imageUrl: recipes,
-    liveDemoUrl: '/404/',
-    sourceCodeUrl: 'https://github.com/username/project1',
+    liveDemoUrl: 'https://ameyvijeesh.netlify.app/404',
+    sourceCodeUrl: 'https://github.com/AmeyVijeesh/Recipe-Generator',
   },
   {
-    title: 'Weather App',
-    description:
-      'Compact weather app, one of my first projects. Made using Tkinter, Python.',
-    imageUrl: wapic,
-    liveDemoUrl: 'https://github.com/AmeyVijeesh/Weather-App/tree/main',
-    sourceCodeUrl: 'https://github.com/AmeyVijeesh/Weather-App/tree/main',
+    title: 'Phone Emulator',
+    description: "Similar to XCode's and Android Studio's emulator.",
+    imageUrl: psim,
+    liveDemoUrl: 'https://github.com/AmeyVijeesh/Phone-Simulator',
+    sourceCodeUrl: 'https://github.com/AmeyVijeesh/Phone-Simulator',
   },
   {
     title: 'AText Editor',
@@ -38,7 +39,7 @@ const projects = [
     description:
       'One of my largest projects. A beautiful replica of a good ecommerce site. Fully scaleable, responsive, and intuitive. ',
     imageUrl: amexpropic2,
-    liveDemoUrl: 'https://amexpro.netlify.com',
+    liveDemoUrl: 'https://amexpro.netlify.app/',
     sourceCodeUrl: 'https://github.com/AmeyVijeesh/AmExpro/',
   },
 ];
@@ -64,14 +65,14 @@ const ProjectsShowcase = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Live Demo
+                        Try it out
                       </a>
                       <a
                         href={project.sourceCodeUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Source Code
+                        Github Repo
                       </a>
                     </div>
                   </div>
