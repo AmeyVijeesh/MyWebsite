@@ -8,6 +8,7 @@ import './CSS/home.css';
 import bgVideo2 from './ComponentAssets/bgvideo8.mp4';
 import profPic from './ComponentAssets/profPic2.jpg';
 import ProjectsShowcase from './projectsShowcase';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   useEffect(() => {
@@ -47,8 +48,11 @@ const Home = () => {
               I have included other little projects I've completed through this
               ongoing exploration of computer science. In the future, I hope to
               develop innovative and impactful tech-projects which can make a
-              difference in people's lives. If you'd like to contribute, let's
-              talk.
+              difference in people's lives. If you'd like to contribute,{' '}
+              <NavLink to="/contact" className="navlinkcontact">
+                let's talk
+              </NavLink>
+              .
               <br />
               <br /> I absolutely adored cars from a young age (and I still do).
               Hence, this website is car-themed. I have also curated an{' '}

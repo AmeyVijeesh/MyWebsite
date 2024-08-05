@@ -96,10 +96,11 @@
 }
 
 .hSecHyperlink {
-  color: #fff;
+  color: grey;
   border-bottom: 5px solid grey;
 }
 
 .hSecHyperlink:hover {
-  color: grey;
+  color: #fff;
+  border-bottom: 5px solid #fff;
 }

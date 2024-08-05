@@ -202,7 +202,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #2190d6;
+  background-color: grey;
   transition: width 0.3s ease;
 }
 
@@ -302,4 +302,14 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.navlinkcontact {
+  color: grey;
+  border-bottom: 5px solid grey;
+}
+
+.navlinkcontact:hover {
+  color: #fff;
+  border-bottom: 5px solid #fff;
 }

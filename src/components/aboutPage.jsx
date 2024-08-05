@@ -188,7 +188,10 @@ const About = () => {
               data-scroll-repeat="true"
             >
               Scroll on for more info. Want to get in touch? Do it{' '}
-              <NavLink to="/contact">here</NavLink>.
+              <NavLink to="/contact" className="navlinkcontact">
+                here
+              </NavLink>
+              .
             </h2>
           </div>
         </div>
