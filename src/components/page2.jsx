@@ -162,7 +162,7 @@ function Page2() {
           ))}
           <Tooltip id="my-tooltip" />
         </div>
-        <div style={{ height: '100vh' }}></div>
+        <div className="whitespaceDiv"></div>
       </div>
     </>
   );

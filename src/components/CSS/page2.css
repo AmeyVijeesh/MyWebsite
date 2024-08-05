@@ -303,9 +303,30 @@ select::-ms-expand {
   width: 75px;
 }
 
+.whitespaceDiv {
+  margin: 50%;
+}
+
 @media (max-width: 768px) {
   .rotated-text {
     margin: 25%;
+  }
+
+  .page2Sec2Cont {
+    height: auto;
+  }
+  .page2Sec2P {
+    font-size: 1.25rem;
+  }
+  .page2Sec2H1 {
+    font-size: 2.5rem;
+  }
+
+  .page2Sec2H2 {
+    font-size: 1.5rem;
+  }
+  .whitespaceDiv {
+    margin-bottom: 1%;
   }
 }
 
