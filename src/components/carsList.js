@@ -7,7 +7,7 @@ import img7 from './ComponentAssets/CarImages/img7.jpeg';
 import img6 from './ComponentAssets/CarImages/img6.jpg';
 import img8 from './ComponentAssets/CarImages/img8.jpeg';
 import img9 from './ComponentAssets/CarImages/img9.jpeg';
-import img10 from './ComponentAssets/CarImages/img10.webp';
+import img10 from './ComponentAssets/CarImages/img10.jpg';
 import img11 from './ComponentAssets/CarImages/img11.jpg';
 import img12 from './ComponentAssets/CarImages/img12.jpg';
 import img13 from './ComponentAssets/CarImages/img13.jpg';
@@ -80,9 +80,9 @@ const dreamCars = [
   },
   {
     id: 11,
-    name: 'Mercedes Benz S63 W223',
+    name: 'Mercedes Benz S63 W222',
     image: img10,
-    desc: 'A sophisticated, ultra luxury sedan with an insane performance package.',
+    desc: 'An ultra-luxurious, sophisticated AMG Benz. My favorite generation of Mercedes Benz cars.',
     price: '$220,000',
   },
 
