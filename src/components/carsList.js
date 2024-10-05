@@ -51,9 +51,9 @@ const dreamCars = [
   },
   {
     id: 6,
-    name: 'Toyota Land Cruiser',
+    name: '2020 BMW M2 CS',
     image: img6,
-    desc: 'A hyper-reliable, tough-as-a-rock car. I would use this for off roading.',
+    desc: 'A lightning-quick, nimble 2 door coupe. This car is just plain insane - in terms of looks, performance, handling, whatever.',
     price: '$70,000',
   },
   {
