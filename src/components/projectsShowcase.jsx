@@ -12,12 +12,12 @@ import { useNavigate } from 'react-router-dom';
 
 const projects = [
   {
-    title: 'Recipe Website.',
+    title: 'AI Restaurant Recommender',
     description:
-      'Generate over 2000 recipes instantly. Currently not deployed.',
+      'Cosine similarity restaurant recommender for Bengaluru. Over 12000 restaurants included',
     imageUrl: recipes,
-    liveDemoUrl: 'https://ameyvijeesh.netlify.app/404',
-    sourceCodeUrl: 'https://github.com/AmeyVijeesh/Recipe-Generator',
+    liveDemoUrl: 'https://restaurant-recommender-47xq.onrender.com/',
+    sourceCodeUrl: 'https://github.com/AmeyVijeesh/Restaurant-Recommender',
   },
   {
     title: 'Phone Emulator',
