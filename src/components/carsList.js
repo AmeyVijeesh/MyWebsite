@@ -83,7 +83,7 @@ const dreamCars = [
     name: 'Mercedes Benz S63 W222',
     image: img10,
     desc: 'An ultra-luxurious, sophisticated AMG Benz. My favorite generation of Mercedes Benz cars.',
-    price: '$220,000',
+    price: '$150,000',
   },
 
   {
