@@ -54,7 +54,7 @@ const Home = () => {
               </NavLink>
               .
               <br />
-              <br /> I absolutely adored cars from a young age (and I still do).
+              <br />I absolutely adored cars from a young age (and I still do).
               Hence, this website is car-themed. I have also curated an{' '}
               <i>imaginary/dream</i> car garage here, which houses all the cars
               I'd like to own one day. It is a testament to my enduring passion
