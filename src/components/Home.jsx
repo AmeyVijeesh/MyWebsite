@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <div className="HSec2Cont">
           <div className="Hsec2Cont2">
-            <h1 className="HSec2H1">Hello. It's nice to have you here.</h1>
+            <h1 className="HSec2H1">Hello. It's nice to have you here :)</h1>
             <p className="Hsec2P">
               I'm Amey, a 15 year old student currently residing in Bengaluru,
               India. I love cars, programming, and cookies. As a result, this
