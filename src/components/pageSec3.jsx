@@ -1,5 +1,5 @@
 import React from 'react';
-import './CSS/PageSec3.css';
+import './CSS/pageSec3.css';
 import ProjectsShowcase from './projectsShowcase';
 import BackToTopButton from './b2tBtn';
 
