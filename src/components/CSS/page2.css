@@ -290,9 +290,9 @@ select::-ms-expand {
 
 .rotated-text-container {
   display: flex;
-  flex-direction: column; /* Stacks texts vertically */
+  flex-direction: column;
   margin: 5%;
-  align-items: flex-start; /* Adjust as needed */
+  align-items: flex-start;
 }
 
 .rotated-text {
