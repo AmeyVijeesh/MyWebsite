@@ -26,6 +26,7 @@
 .profContainer {
   display: flex;
   align-items: center;
+  padding-top: 5%;
 }
 
 .profPic {
