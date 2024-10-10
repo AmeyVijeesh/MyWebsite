@@ -13,6 +13,18 @@ import SiteMapComp from './components/sitemap.jsx';
 import PageNotFound from './components/404';
 import Test from './components/test.jsx';
 
+const TrackPageViews = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.gtag('config', 'G-X7024L5107', {
+      page_path: location.pathname,
+    });
+  }, [location]);
+
+  return null; 
+};
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
