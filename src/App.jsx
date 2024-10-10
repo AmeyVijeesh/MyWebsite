@@ -53,6 +53,7 @@ const App = () => {
         }}
       />
       <BrowserRouter>
+        <TrackPageViews />
         {isLoading ? (
           <Loader />
         ) : (
