@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Loader from './components/Loader';
 import Home from './components/Home';
 import Page2 from './components/page2';
@@ -61,5 +62,7 @@ const App = () => {
     </>
   );
 };
+
+
 
 export default App;
