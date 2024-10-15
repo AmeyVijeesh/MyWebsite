@@ -9,6 +9,7 @@ import bgVideo2 from './ComponentAssets/bgvideo8.mp4';
 import profPic from './ComponentAssets/profPic2.jpg';
 import ProjectsShowcase from './projectsShowcase';
 import { NavLink } from 'react-router-dom';
+import Footer from './footer';
 
 const Home = () => {
   useEffect(() => {
@@ -92,6 +93,7 @@ const Home = () => {
           </p>
           <ProjectsShowcase />
         </div>
+        <Footer />
       </div>
     </>
   );

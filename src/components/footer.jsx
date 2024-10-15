@@ -1,5 +1,5 @@
-import "./CSS/Footer.css";
-import { Link } from "react-router-dom";
+import './CSS/footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -52,7 +52,7 @@ const Footer = () => {
                 <a href="#">
                   <span
                     onClick={() => {
-                      window.open("https://github.com/AmeyVijeesh");
+                      window.open('https://github.com/AmeyVijeesh');
                     }}
                   >
                     Github
@@ -65,7 +65,7 @@ const Footer = () => {
                   <span
                     onClick={() => {
                       window.open(
-                        "https://www.team-bhp.com/forum/members/pythonista.html"
+                        'https://www.team-bhp.com/forum/members/pythonista.html'
                       );
                     }}
                   >
@@ -79,7 +79,7 @@ const Footer = () => {
                   <span
                     onClick={() => {
                       window.open(
-                        "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ameyvijeesh@gmail.com"
+                        'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ameyvijeesh@gmail.com'
                       );
                     }}
                   >
@@ -92,7 +92,7 @@ const Footer = () => {
                 <a href="#">
                   <span
                     onClick={() => {
-                      window.open("https://www.google.com");
+                      window.open('https://www.google.com');
                     }}
                   >
                     Code
