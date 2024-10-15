@@ -39,7 +39,7 @@ const Home = () => {
         </div>
         <div className="HSec2Cont">
           <div className="Hsec2Cont2">
-            <h1 className="HSec2H1">Hello. It's nice to have you here.</h1>
+            <h1 className="HSec2H1">Hello. It's nice to have you here :)</h1>
             <p className="Hsec2P">
               I'm Amey, a 15 year old student currently residing in Bengaluru,
               India. I love cars, programming, and cookies. As a result, this
@@ -55,7 +55,7 @@ const Home = () => {
               </NavLink>
               .
               <br />
-              <br /> I absolutely adored cars from a young age (and I still do).
+              <br />I absolutely adored cars from a young age (and I still do).
               Hence, this website is car-themed. I have also curated an{' '}
               <i>imaginary/dream</i> car garage here, which houses all the cars
               I'd like to own one day. It is a testament to my enduring passion

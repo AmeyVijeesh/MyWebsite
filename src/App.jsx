@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Loader from './components/Loader';
 import Home from './components/Home';
 import Page2 from './components/page2';
@@ -11,6 +12,18 @@ import AnimatedCursor from 'react-animated-cursor';
 import SiteMapComp from './components/sitemap.jsx';
 import PageNotFound from './components/404';
 import Test from './components/test.jsx';
+
+const TrackPageViews = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.gtag('config', 'G-X7024L5107', {
+      page_path: location.pathname,
+    });
+  }, [location]);
+
+  return null; 
+};
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,6 +53,7 @@ const App = () => {
         }}
       />
       <BrowserRouter>
+        <TrackPageViews />
         {isLoading ? (
           <Loader />
         ) : (
@@ -61,5 +75,7 @@ const App = () => {
     </>
   );
 };
+
+
 
 export default App;

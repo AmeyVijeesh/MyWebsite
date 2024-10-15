@@ -2,7 +2,7 @@
 My car-themed personal website, made using React. Fully responsive.
 
 Animations using Locomotive.js. MDBootstrap for navbar. Project bootstrapped with React. 
-View the website at https://ameyvijeesh.netlify.com
+View the website at https://ameyvijeesh.netlify.app
 
 
 ## Table of Contents
