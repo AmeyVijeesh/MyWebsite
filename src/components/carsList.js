@@ -5,7 +5,7 @@ import img4 from './ComponentAssets/CarImages/img4.jpg';
 import img5 from './ComponentAssets/CarImages/img5.jpg';
 import img7 from './ComponentAssets/CarImages/img7.jpeg';
 import img6 from './ComponentAssets/CarImages/img6.jpg';
-import img8 from './ComponentAssets/CarImages/img8.jpeg';
+import img8 from './ComponentAssets/CarImages/img8.jpg';
 import img9 from './ComponentAssets/CarImages/img9.jpeg';
 import img10 from './ComponentAssets/CarImages/img10.jpg';
 import img11 from './ComponentAssets/CarImages/img11.jpg';
@@ -56,21 +56,21 @@ const dreamCars = [
     desc: 'A lightning-quick, nimble 2 door coupe. This car is just plain insane - in terms of looks, performance, handling, whatever.',
     price: '$70,000',
   },
-  {
-    id: 7,
-    name: 'Pininfarina Battista',
-    image: img7,
-    desc: 'Ridiculously fast electric hypercar from the Italian design house, Automobilli Pininfarina. Looks awesome.',
-    price: '$2.2 Million',
-  },
+
   {
     id: 14,
-    name: 'Koenigsegg Gemera',
+    name: 'BMW M5 CS F90',
     image: img8,
-    desc: 'A 4-seater hypercar that makes 2300 horsepower.',
-    price: '$1.7 Million',
+    desc: 'Another of my favorite BMWs AND one of my dream cars. One of the best BMWs ever made - with bronze wheels.',
+    price: '$150,000',
   },
-
+  {
+    id: 7,
+    name: 'Mercedes Benz S63 W222',
+    image: img10,
+    desc: 'An ultra-luxurious, sophisticated AMG Benz. My favorite generation of Mercedes Benz cars.',
+    price: '$150,000',
+  },
   {
     id: 9,
     name: 'Lexus LFA',
@@ -78,12 +78,13 @@ const dreamCars = [
     desc: 'Best sounding exhaust of all time. Music to my ears.',
     price: '$400,000',
   },
+
   {
     id: 11,
-    name: 'Mercedes Benz S63 W222',
-    image: img10,
-    desc: 'An ultra-luxurious, sophisticated AMG Benz. My favorite generation of Mercedes Benz cars.',
-    price: '$150,000',
+    name: 'Pininfarina Battista',
+    image: img7,
+    desc: 'Ridiculously fast electric hypercar from the Italian design house, Automobilli Pininfarina. Looks awesome.',
+    price: '$2.2 Million',
   },
 
   {
