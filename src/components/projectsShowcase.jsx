@@ -53,9 +53,7 @@ const ProjectsShowcase = () => {
             {projects.map((project, index) => (
               <Flipped key={index} flipId={index}>
                 <div className="project-card">
-                  <LazyLoad>
-                    <img src={project.imageUrl} alt={project.title} />
-                  </LazyLoad>
+                  <img src={project.imageUrl} alt={project.title} />
                   <div className="project-details">
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>

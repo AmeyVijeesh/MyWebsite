@@ -1,5 +1,5 @@
-import React from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import React from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 const PageSec2 = () => {
   const { scrollYProgress } = useScroll();
@@ -24,7 +24,7 @@ const PageSec2 = () => {
   return (
     <>
       <div>
-        <div className="moving-text-container" style={{ overflowX: "hidden" }}>
+        <div className="moving-text-container" style={{ overflowX: 'hidden' }}>
           <motion.div className="moving-text" style={{ x: x1 }}>
             <h1 className="movingText">I like CARS</h1>
           </motion.div>

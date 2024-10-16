@@ -1,11 +1,11 @@
 // TODO: Fix the cards display on mobile and smaller devices.
 
-import React, { useState, useEffect } from "react";
-import "./CSS/pageSec4.css";
-import { Link } from "react-router-dom";
-import amexpropic from "./ComponentAssets/amexpropic.png";
-import ameymartpic from "./ComponentAssets/ameymartpic.png";
-import BackToTopButton from "./b2tBtn.jsx";
+import React, { useState, useEffect } from 'react';
+import './CSS/pageSec4.css';
+import { Link } from 'react-router-dom';
+import amexpropic from './ComponentAssets/amexpropic.png';
+import ameymartpic from './ComponentAssets/ameymartpic.png';
+import BackToTopButton from './b2tBtn.jsx';
 
 const PageSec4 = () => {
   return (
@@ -23,14 +23,14 @@ const PageSec4 = () => {
             <p className="pageSec4Links">
               Here are just two of my projects. Find more projects
               <a>
-                <Link style={{ color: "#fff" }} to="/about">
+                <Link style={{ color: '#fff' }} to="/about">
                   <u> here</u>
                 </Link>
               </a>
-              . Go to my{" "}
+              . Go to my{' '}
               <a
                 onClick={() => {
-                  window.open("https://github.com/AmeyVijeesh");
+                  window.open('https://github.com/AmeyVijeesh');
                 }}
               >
                 <u>github </u>
@@ -60,7 +60,7 @@ const PageSec4 = () => {
                   <button
                     className="visitButton"
                     onClick={() => {
-                      window.open("https://amexpro.netlify.app/");
+                      window.open('https://amexpro.netlify.app/');
                     }}
                   >
                     Visit
@@ -87,8 +87,8 @@ const PageSec4 = () => {
                     className="visitButton"
                     onClick={() =>
                       window.open(
-                        "https://ameyvijeesh.github.io/AmeyMart/#signup",
-                        "_blank"
+                        'https://ameyvijeesh.github.io/AmeyMart/#signup',
+                        '_blank'
                       )
                     }
                   >

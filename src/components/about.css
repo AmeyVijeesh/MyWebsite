@@ -10,7 +10,6 @@
   margin-right: 20px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
-  margin: 500px;
 }
 .abouth2 {
   text-wrap: nowrap;
@@ -26,7 +25,6 @@
 .profContainer {
   display: flex;
   align-items: center;
-  padding-top: 5%;
 }
 
 .profPic {
@@ -42,7 +40,7 @@
 
   .profPic {
     height: auto;
-    width: 47vh;
+    width: 43vh;
   }
 
   .abouth1 {
