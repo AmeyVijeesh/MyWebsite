@@ -12,7 +12,8 @@ const Contact = () => {
   return (
     <>
       <div className="contactCont">
-        <h1 className="contactH1">Contact Me</h1>
+        <h1 className="contactH1">Contact Me.</h1>
+        <p className="contactP">Wanna talk? Connect here.</p>
         <div className="contactBtns">
           <button
             className="contactBtn"
@@ -31,6 +32,15 @@ const Contact = () => {
           >
             <FontAwesomeIcon icon={faLinkedin} className="fawesomeicon" />
             LinkedIn
+          </button>
+          <button
+            className="contactBtn"
+            onClick={() => {
+              window.open('https://github.com/AmeyVijeesh');
+            }}
+          >
+            <FontAwesomeIcon icon={faGithub} className="fawesomeicon" />
+            Github
           </button>
           <button
             className="contactBtn"

@@ -8,8 +8,14 @@
 
 .contactH1 {
   font-size: 3rem;
-  text-align: center;
-  margin: 5%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  margin: 15% 0% 1% 0%;
+}
+
+.contactP {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
 }
 
 .contactBtns {
