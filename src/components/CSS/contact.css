@@ -25,4 +25,20 @@
 .contactBtn {
   background-color: #000;
   color: #fff;
+  border: 0;
+  width: 15vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2.5%;
+}
+
+.fawesomeicon {
+  padding: 0 10px 0 0;
+}
+
+.contactBtn:hover {
+  background-color: #fff;
+  border: 1px solid black;
+  color: #000;
 }

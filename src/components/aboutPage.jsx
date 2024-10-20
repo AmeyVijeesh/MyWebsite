@@ -223,7 +223,7 @@ const About = () => {
         <button
           className="bttn1"
           onClick={() =>
-            window.open('https://www.linkedin.com/in/amey-vijeesh-4434711b5/')
+            window.open('https://www.linkedin.com/in/amey-vijeesh/')
           }
         >
           <FontAwesomeIcon icon={faLinkedin} />
