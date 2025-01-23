@@ -39,6 +39,11 @@ const favoriteItems = [
     label: 'Favorite Chocolate',
     value: 'Toblerone/Lindt White Chocolate',
   },
+
+  {
+    label: 'Favorite Football Player',
+    value: 'Kevin De Bruyne',
+  },
 ];
 
 const FavoriteItemsShowcase = () => {

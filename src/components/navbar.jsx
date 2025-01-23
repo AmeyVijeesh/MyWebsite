@@ -55,6 +55,7 @@ const NavBar = () => {
           <div
             className={`collapse navbar-collapse ${isExpanded ? 'show' : ''}`}
             id="navbarSupportedContent"
+            style={{ color: '#fff' }}
           >
             <ul className="navbar-nav me-auto">
               <li

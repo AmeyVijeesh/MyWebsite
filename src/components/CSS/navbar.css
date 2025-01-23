@@ -46,3 +46,9 @@
   padding: 10px 20px;
   cursor: pointer;
 }
+.navbar .navbar-toggler[aria-expanded='true'] {
+  color: #9933cc !important;
+}
+.navbar .navbar-toggler:focus {
+  color: #ff4444;
+}

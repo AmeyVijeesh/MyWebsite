@@ -153,7 +153,7 @@ const About = () => {
               data-scroll-class="appear"
               data-scroll-repeat="true"
             >
-              I am also an ardent follower of cricket, a great cookie consumer,
+              I am also an ardent follower of football, a great cookie consumer,
               and an avid reader who loves diving into the world of words.
             </h2>
             <h2
