@@ -13,7 +13,7 @@ const favoriteItems = [
   },
   {
     label: 'Favorite Place',
-    value: 'Norway',
+    value: 'Home',
   },
   {
     label: 'Favorite Car Brand',
@@ -33,7 +33,7 @@ const favoriteItems = [
   },
   {
     label: 'Favorite Video Game',
-    value: 'Asphalt 8: Airborne',
+    value: 'Minecraft',
   },
   {
     label: 'Favorite Chocolate',
