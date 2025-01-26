@@ -33,14 +33,14 @@ const About = () => {
             <div className="profContainer">
               <h1 style={{ textWrap: 'nowrap' }} className="abouth1">
                 Hello, <br />
-                I'm Amey Vijeesh
+                I'm Amey Vijeesh.
               </h1>
               <img src={img} alt="" className="profPic" />
               <div style={{ textAlign: 'left' }}>
                 <h4 className="abouth2">I am a</h4>
                 <h2 className="aboutp">Programmer</h2>{' '}
                 <h2 className="aboutp">Car Enthusiast</h2>
-                <h2 className="aboutp">Reader</h2>
+                <h2 className="aboutp">Student</h2>
               </div>
             </div>
           </div>
