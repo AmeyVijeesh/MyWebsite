@@ -203,12 +203,13 @@ const About = () => {
         </div>
         <FavoriteItemsShowcase />
       </div>
-      <div className="fixed-text-container2Ab">
-        <h2 className="fixed-text2Ab">ameyvijeesh@gmail.com</h2>
+      <div className="fixed-text-container2A">
+        <h2 className="fixed-text2A">ameyvijeesh@gmail.com</h2>
       </div>
-      <div className="fixed-text-containerAb">
-        <h2 className="fixed-textAb">Scroll</h2>
+      <div className="fixed-textA-container">
+        <h2 className="fixed-textA">Scroll</h2>
       </div>
+
       <div className="diva">
         <button
           className="bttn1"
