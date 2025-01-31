@@ -7,16 +7,17 @@ import atextpic from './ComponentAssets/atext.png';
 import amexpropic2 from './ComponentAssets/amexpropic2.png';
 import recipes from './ComponentAssets/recipes.png';
 import psim from './ComponentAssets/psim.png';
+import spotify from './ComponentAssets/spotify.png';
 import LazyLoad from 'react-lazy-load';
 import { useNavigate } from 'react-router-dom';
 
 const projects = [
   {
-    title: 'AI Restaurant Recommender',
+    title: 'SpotifyInfo',
     description:
-      'Cosine similarity restaurant recommender for Bengaluru. Over 12000 restaurants included',
-    imageUrl: recipes,
-    liveDemoUrl: 'https://restaurant-recommender-47xq.onrender.com/',
+      'See your Spotify playlists, search for songs, view your top artists and tracks with this website.',
+    imageUrl: spotify,
+    liveDemoUrl: 'https://getspotifyinfo.netlify.app/',
     sourceCodeUrl: 'https://github.com/AmeyVijeesh/Restaurant-Recommender',
   },
   {
